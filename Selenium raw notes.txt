@@ -1,0 +1,34 @@
+Selenium -> Allows to automate human interaction with web pages
+TestNG -> Allows to write tests/assertions
+google.guava -> helps to work with tables
+
+Selenium things
+WebDriver
+WebElement
+
+Few classes -> good practices
+DriverFactory -> produce and provide driver
+Pages -> Links to open different pages
+
+Few prebuilt classes provided by selenium
+Actions -> helps to perform advanced actions using driver -> example -> we can right click using the contextClick(), but the contextMenu is a functionality of the browser, not the web page, so we won't be able to click anything in it using selenium
+Select -> Helps to select things from a dropdown using various parameters
+Alert -> to handle alerts/popups
+
+*Since file selector (the explorer that allows us to select a particular file from our local machine) is part of the OS, and not selenium, therefore, we can't automate it using selenium. We will have to provide full path of the file, that we want to select.
+
+
+
+Java things
+var keyword -> used to specify any time of variable
+
+Java helpful classes
+Files -> can be used to create temporary files to upload in file selectors
+Path -> can be used to store path and get absolute path of files -> can be used to delete files on exit too.
+
+https://www.selenium.dev/documentation/
+
+Assertions are provided by TestNG
+
+Index of what I learnt - 
+Copy index of the course each lecture one by one
